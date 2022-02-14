@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SkeletonView",
+        "repositoryURL": "https://github.com/Juanpe/SkeletonView",
+        "state": {
+          "branch": "main",
+          "revision": "f3cc8f0aba521cc769ef014666ae37954ab4ff0b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

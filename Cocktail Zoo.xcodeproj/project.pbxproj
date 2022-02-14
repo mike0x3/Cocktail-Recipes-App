@@ -10,9 +10,19 @@
 		4C838FC72778BC68005B798E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C838FC62778BC68005B798E /* AppDelegate.swift */; };
 		4C838FC92778BC68005B798E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C838FC82778BC68005B798E /* SceneDelegate.swift */; };
 		4C838FCB2778BC68005B798E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C838FCA2778BC68005B798E /* ViewController.swift */; };
-		4C838FCE2778BC68005B798E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C838FCC2778BC68005B798E /* Main.storyboard */; };
 		4C838FD02778BC6A005B798E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C838FCF2778BC6A005B798E /* Assets.xcassets */; };
 		4C838FD32778BC6A005B798E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C838FD12778BC6A005B798E /* LaunchScreen.storyboard */; };
+		4C838FDB2778BDD1005B798E /* CocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C838FDA2778BDD1005B798E /* CocktailCell.swift */; };
+		4C838FDD2778BE0B005B798E /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C838FDC2778BE0B005B798E /* Cocktail.swift */; };
+		4C838FFC27791DEB005B798E /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 4C838FFB27791DEB005B798E /* SkeletonView */; };
+		4C838FFE27792BD6005B798E /* Cocktails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C838FFD27792BD6005B798E /* Cocktails.swift */; };
+		4C839002277A0A1F005B798E /* DetailCocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C839001277A0A1F005B798E /* DetailCocktailViewController.swift */; };
+		4C839004277CB13C005B798E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C839003277CB13C005B798E /* Ingredient.swift */; };
+		4C839006277CB177005B798E /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C839005277CB177005B798E /* Ingredients.swift */; };
+		4C839009277CED8D005B798E /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C839008277CED8D005B798E /* IngredientCell.swift */; };
+		4C83900F2780FAE5005B798E /* CocktailType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C83900E2780FAE5005B798E /* CocktailType.swift */; };
+		4CB84A6C2788B20A00C4A1D8 /* FavouriteCocktailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB84A6B2788B20A00C4A1D8 /* FavouriteCocktailsTableViewController.swift */; };
+		4CB84A702788B37700C4A1D8 /* CocktailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB84A6F2788B37700C4A1D8 /* CocktailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +30,19 @@
 		4C838FC62778BC68005B798E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C838FC82778BC68005B798E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4C838FCA2778BC68005B798E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C838FCD2778BC68005B798E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C838FCF2778BC6A005B798E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C838FD22778BC6A005B798E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C838FD42778BC6A005B798E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C838FDA2778BDD1005B798E /* CocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCell.swift; sourceTree = "<group>"; };
+		4C838FDC2778BE0B005B798E /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		4C838FFD27792BD6005B798E /* Cocktails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktails.swift; sourceTree = "<group>"; };
+		4C839001277A0A1F005B798E /* DetailCocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCocktailViewController.swift; sourceTree = "<group>"; };
+		4C839003277CB13C005B798E /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		4C839005277CB177005B798E /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		4C839008277CED8D005B798E /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
+		4C83900E2780FAE5005B798E /* CocktailType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailType.swift; sourceTree = "<group>"; };
+		4CB84A6B2788B20A00C4A1D8 /* FavouriteCocktailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCocktailsTableViewController.swift; sourceTree = "<group>"; };
+		4CB84A6F2788B37700C4A1D8 /* CocktailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C838FFC27791DEB005B798E /* SkeletonView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,64 @@
 		4C838FC52778BC68005B798E /* Cocktail Zoo */ = {
 			isa = PBXGroup;
 			children = (
+				4C839000277A06B9005B798E /* Custom Elements */,
+				4C838FFF277A06AE005B798E /* Models */,
 				4C838FC62778BC68005B798E /* AppDelegate.swift */,
 				4C838FC82778BC68005B798E /* SceneDelegate.swift */,
 				4C838FCA2778BC68005B798E /* ViewController.swift */,
-				4C838FCC2778BC68005B798E /* Main.storyboard */,
 				4C838FCF2778BC6A005B798E /* Assets.xcassets */,
 				4C838FD12778BC6A005B798E /* LaunchScreen.storyboard */,
 				4C838FD42778BC6A005B798E /* Info.plist */,
 			);
 			path = "Cocktail Zoo";
+			sourceTree = "<group>";
+		};
+		4C838FFF277A06AE005B798E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C839007277CB248005B798E /* Codable Models */,
+				4C839003277CB13C005B798E /* Ingredient.swift */,
+				4C839005277CB177005B798E /* Ingredients.swift */,
+				4C83900E2780FAE5005B798E /* CocktailType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C839000277A06B9005B798E /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4CB84A6E2788B33000C4A1D8 /* Favourite Cocktails Table View */,
+				4CB84A6D2788B31400C4A1D8 /* Cocktail Detail View */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
+		4C839007277CB248005B798E /* Codable Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C838FDC2778BE0B005B798E /* Cocktail.swift */,
+				4C838FFD27792BD6005B798E /* Cocktails.swift */,
+			);
+			path = "Codable Models";
+			sourceTree = "<group>";
+		};
+		4CB84A6D2788B31400C4A1D8 /* Cocktail Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				4C839008277CED8D005B798E /* IngredientCell.swift */,
+				4C838FDA2778BDD1005B798E /* CocktailCell.swift */,
+				4C839001277A0A1F005B798E /* DetailCocktailViewController.swift */,
+			);
+			path = "Cocktail Detail View";
+			sourceTree = "<group>";
+		};
+		4CB84A6E2788B33000C4A1D8 /* Favourite Cocktails Table View */ = {
+			isa = PBXGroup;
+			children = (
+				4CB84A6B2788B20A00C4A1D8 /* FavouriteCocktailsTableViewController.swift */,
+				4CB84A6F2788B37700C4A1D8 /* CocktailTableViewCell.swift */,
+			);
+			path = "Favourite Cocktails Table View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = "Cocktail Zoo";
+			packageProductDependencies = (
+				4C838FFB27791DEB005B798E /* SkeletonView */,
+			);
 			productName = "Cocktail Zoo";
 			productReference = 4C838FC32778BC68005B798E /* Cocktail Zoo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 4C838FBA2778BC68005B798E;
+			packageReferences = (
+				4C838FFA27791DEB005B798E /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = 4C838FC42778BC68005B798E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +202,6 @@
 			files = (
 				4C838FD32778BC6A005B798E /* LaunchScreen.storyboard in Resources */,
 				4C838FD02778BC6A005B798E /* Assets.xcassets in Resources */,
-				4C838FCE2778BC68005B798E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +212,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C83900F2780FAE5005B798E /* CocktailType.swift in Sources */,
 				4C838FCB2778BC68005B798E /* ViewController.swift in Sources */,
+				4C839006277CB177005B798E /* Ingredients.swift in Sources */,
+				4C838FDB2778BDD1005B798E /* CocktailCell.swift in Sources */,
 				4C838FC72778BC68005B798E /* AppDelegate.swift in Sources */,
+				4CB84A702788B37700C4A1D8 /* CocktailTableViewCell.swift in Sources */,
+				4C838FFE27792BD6005B798E /* Cocktails.swift in Sources */,
+				4C839004277CB13C005B798E /* Ingredient.swift in Sources */,
+				4C839009277CED8D005B798E /* IngredientCell.swift in Sources */,
+				4C838FDD2778BE0B005B798E /* Cocktail.swift in Sources */,
 				4C838FC92778BC68005B798E /* SceneDelegate.swift in Sources */,
+				4C839002277A0A1F005B798E /* DetailCocktailViewController.swift in Sources */,
+				4CB84A6C2788B20A00C4A1D8 /* FavouriteCocktailsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C838FCC2778BC68005B798E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C838FCD2778BC68005B798E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C838FD12778BC6A005B798E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +370,6 @@
 				INFOPLIST_FILE = "Cocktail Zoo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +397,6 @@
 				INFOPLIST_FILE = "Cocktail Zoo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +434,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C838FFA27791DEB005B798E /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C838FFB27791DEB005B798E /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C838FFA27791DEB005B798E /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C838FBB2778BC68005B798E /* Project object */;
 }
